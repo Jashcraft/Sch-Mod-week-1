@@ -36,7 +36,25 @@ section {
 
 }
 
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
 
+.hero-form label {
+    margin: 0 5px;
+}
+
+section div h3 {
+    margin: 0;
+    font-size: xx-large;
+}
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 /* Apply Styles to <header> */
 
 header {
@@ -72,6 +90,16 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/*form input styling*/
+
+.form-input {
+    border: solid 1px #024e76;
+    font-size: 16px;
+    display: block;
+    padding: 7px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
 
 /* Footer Styling */
 
