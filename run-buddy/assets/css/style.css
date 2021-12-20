@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,6 +9,33 @@ body {
     color: #39a6b2;
 /*This is a Comment on a css page*/
 }
+
+/*preliminary section styling */
+section {
+    padding: 60px;
+}
+
+/*Hero styling*/
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+/*Hero style End*/
+.hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    width: 500px;
+    padding: 20px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+
+}
+
 
 /* Apply Styles to <header> */
 
